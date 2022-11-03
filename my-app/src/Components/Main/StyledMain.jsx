@@ -23,4 +23,36 @@ export const StyledMain = styled.main`
     transition: 0.3s;
     pointer-events: none;
   }
+
+  .title_banner {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+
+    h1 {
+      font-family: 'Raleway', sans-serif;
+      color: white;
+      font-size: 82px;
+      font-weight: 700;
+      text-transform: uppercase;
+      margin-top: 0;
+      z-index: 2;
+    }
+    p {
+      color: #fff;
+      font-size: 22px;
+      font-weight: 300;
+      line-height: 30px;
+      margin: 0 auto;
+      z-index: 2;
+    }
+    .info_button {
+      a {
+        width: 600px;
+        margin: 0 auto;
+        background: white;
+      }
+    }
+  }
 `
