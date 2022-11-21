@@ -1,0 +1,98 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #F5F5F5;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+p {
+    margin: 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+.ty-sort-container {
+    display: grid;
+    grid-template-columns: 100%;
+    margin-bottom: 8px;
+}
+
+
+
+.main-content-grid {
+    background: #FFFFFF;
+    display: flex;
+    align-items: flex-start;
+    border-radius: 8px;
+    box-shadow: 2px 1px 7px rgba(0, 0, 0, 0.08), 0px 2px 1px -1px rgba(0, 0, 0, 0.04), 0px 1px 3px rgba(0, 0, 0, 0.12);
+    padding: 24px 16px;
+    position: relative;
+}
+
+.main-content-grid .main-pic {
+    border-radius: 100%;
+    width: 85px;
+    height: 85px;
+    margin-right: 24px;
+}
+
+.main-content-grid .content {
+    width: 50%;
+}
+
+.link-address {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0.23619px;
+    color: #878D9D;
+    margin-top: 8px;
+}
+
+.active {
+    background: yellow;
+}
+
+.icon,.active {
+    width: 16px;
+    height: 20px;
+    position: absolute;
+    top: 21px;
+    right: 21px;
+    cursor: pointer;
+}
+
+.data-posted {
+    position: absolute;
+    color: #878D9D;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    right: 16px;
+    bottom: 24px;
+}
+
+.title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: -0.625px;
+    color: #3A4562;
+}
+
+.cards {
+    max-width: 1350px;
+    margin: 29px auto;
+}
+
+
